@@ -1,0 +1,86 @@
+2025-08-25 15:59:17.735 INFO  [main] c.s.solicitud.SolicitudApplication - Starting SolicitudApplication using Java 24.0.2 with PID 13212 (C:\Users\LENOVO\Downloads\Proyectos\PRAGMA\MicroSolicitud\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\Proyectos\PRAGMA\MicroSolicitud)
+2025-08-25 15:59:17.738 INFO  [main] c.s.solicitud.SolicitudApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-25 15:59:21.056 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 15:59:21.519 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 15:59:21.526 DEBUG [main] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 15:59:21.543 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 15:59:23.619 WARN  [main] o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-25 15:59:23.660 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-08-25 16:02:15.229 INFO  [main] c.s.solicitud.SolicitudApplication - Starting SolicitudApplication using Java 24.0.2 with PID 10164 (C:\Users\LENOVO\Downloads\Proyectos\PRAGMA\MicroSolicitud\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\Proyectos\PRAGMA\MicroSolicitud)
+2025-08-25 16:02:15.232 INFO  [main] c.s.solicitud.SolicitudApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-25 16:02:18.474 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:02:18.569 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:02:18.589 DEBUG [main] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:02:18.607 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:02:18.751 INFO  [main] c.s.solicitud.SolicitudApplication - Started SolicitudApplication in 4.365 seconds (process running for 5.322)
+2025-08-25 16:03:18.645 INFO  [main] c.s.solicitud.SolicitudApplication - Starting SolicitudApplication using Java 24.0.2 with PID 1204 (C:\Users\LENOVO\Downloads\Proyectos\PRAGMA\MicroSolicitud\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\Proyectos\PRAGMA\MicroSolicitud)
+2025-08-25 16:03:18.648 INFO  [main] c.s.solicitud.SolicitudApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-25 16:03:21.823 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:03:21.894 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:03:21.904 DEBUG [main] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:03:21.916 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:03:21.998 INFO  [main] c.s.solicitud.SolicitudApplication - Started SolicitudApplication in 4.175 seconds (process running for 5.088)
+2025-08-25 16:05:53.510 INFO  [reactor-http-nio-3] c.s.s.i.a.input.SolicitudHandler - Solicitud de préstamo recibida en el HANDLER.
+2025-08-25 16:05:53.668 INFO  [reactor-http-nio-3] c.s.s.d.u.SolicitarPrestamoUseCase - Iniciando la solicitud de préstamo del usuario con email: pedrogomez@gmail.com
+2025-08-25 16:05:53.670 INFO  [reactor-http-nio-3] c.s.s.d.u.SolicitarPrestamoUseCase - Verificando la existencia del usuario con documento de identidad: 123456789
+2025-08-25 16:05:53.684 INFO  [reactor-http-nio-3] c.s.s.d.u.SolicitarPrestamoUseCase - Validando el tipo de préstamo.
+2025-08-25 16:05:53.812 DEBUG [reactor-http-nio-3] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:05:53.867 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:05:53.873 INFO  [reactor-tcp-nio-2] c.s.s.d.u.SolicitarPrestamoUseCase - Paso 3: Creando y guardando la solicitud.
+2025-08-25 16:05:53.885 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:05:53.892 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:05:53.906 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:05:53.917 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:05:53.919 INFO  [reactor-tcp-nio-2] c.s.s.d.u.SolicitarPrestamoUseCase - Solicitud guardada exitosamente con ID: 1
+2025-08-25 16:05:53.920 INFO  [reactor-tcp-nio-2] c.s.s.i.a.input.SolicitudHandler - Solicitud procesada exitosamente, devolviendo respuesta 201 Created.
+2025-08-25 16:06:55.270 INFO  [reactor-http-nio-1] c.s.s.i.a.input.SolicitudHandler - Solicitud de préstamo recibida en el HANDLER.
+2025-08-25 16:06:55.272 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Iniciando la solicitud de préstamo del usuario con email: inventadojaja@gmail.com
+2025-08-25 16:06:55.272 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Verificando la existencia del usuario con documento de identidad: 123456789
+2025-08-25 16:06:55.272 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Validando el tipo de préstamo.
+2025-08-25 16:06:55.287 DEBUG [reactor-http-nio-3] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:06:55.292 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:06:55.295 INFO  [reactor-tcp-nio-2] c.s.s.d.u.SolicitarPrestamoUseCase - Paso 3: Creando y guardando la solicitud.
+2025-08-25 16:06:55.297 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:06:55.301 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:06:55.304 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:06:55.309 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:06:55.311 INFO  [reactor-tcp-nio-2] c.s.s.d.u.SolicitarPrestamoUseCase - Solicitud guardada exitosamente con ID: 2
+2025-08-25 16:06:55.312 INFO  [reactor-tcp-nio-2] c.s.s.i.a.input.SolicitudHandler - Solicitud procesada exitosamente, devolviendo respuesta 201 Created.
+2025-08-25 16:07:19.185 INFO  [reactor-http-nio-1] c.s.s.i.a.input.SolicitudHandler - Solicitud de préstamo recibida en el HANDLER.
+2025-08-25 16:07:19.186 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Iniciando la solicitud de préstamo del usuario con email: inventado2@gmail.com
+2025-08-25 16:07:19.188 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Verificando la existencia del usuario con documento de identidad: 123456782
+2025-08-25 16:07:19.189 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Validando el tipo de préstamo.
+2025-08-25 16:07:19.204 DEBUG [reactor-http-nio-3] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:07:19.210 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:07:19.212 INFO  [reactor-tcp-nio-2] c.s.s.d.u.SolicitarPrestamoUseCase - Paso 3: Creando y guardando la solicitud.
+2025-08-25 16:07:19.213 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:07:19.216 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:07:19.219 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.ConnectionPool - Obtaining new connection from the pool
+2025-08-25 16:07:19.225 DEBUG [reactor-tcp-nio-2] io.r2dbc.pool.PooledConnection - Releasing connection
+2025-08-25 16:07:19.226 INFO  [reactor-tcp-nio-2] c.s.s.d.u.SolicitarPrestamoUseCase - Solicitud guardada exitosamente con ID: 3
+2025-08-25 16:07:19.227 INFO  [reactor-tcp-nio-2] c.s.s.i.a.input.SolicitudHandler - Solicitud procesada exitosamente, devolviendo respuesta 201 Created.
+2025-08-25 16:07:49.768 INFO  [reactor-http-nio-1] c.s.s.i.a.input.SolicitudHandler - Solicitud de préstamo recibida en el HANDLER.
+2025-08-25 16:07:49.769 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Iniciando la solicitud de préstamo del usuario con email: inventado2@gmail.com
+2025-08-25 16:07:49.770 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Verificando la existencia del usuario con documento de identidad: 1002034231
+2025-08-25 16:07:49.770 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Validando el tipo de préstamo.
+2025-08-25 16:07:49.817 ERROR [reactor-http-nio-3] c.s.s.d.u.SolicitarPrestamoUseCase - Error al procesar la solicitud: El usuario no existe en el sistema.
+2025-08-25 16:07:49.817 ERROR [reactor-http-nio-3] c.s.s.i.a.input.SolicitudHandler - Error de validación: El usuario no existe en el sistema.
+2025-08-25 16:08:15.897 INFO  [reactor-http-nio-1] c.s.s.i.a.input.SolicitudHandler - Solicitud de préstamo recibida en el HANDLER.
+2025-08-25 16:08:15.898 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Iniciando la solicitud de préstamo del usuario con email: inventado22@gmail.com
+2025-08-25 16:08:15.898 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Verificando la existencia del usuario con documento de identidad: 1002034231
+2025-08-25 16:08:15.898 INFO  [reactor-http-nio-1] c.s.s.d.u.SolicitarPrestamoUseCase - Validando el tipo de préstamo.
+2025-08-25 16:08:15.915 ERROR [reactor-http-nio-3] c.s.s.d.u.SolicitarPrestamoUseCase - Error al procesar la solicitud: El usuario no existe en el sistema.
+2025-08-25 16:08:15.916 ERROR [reactor-http-nio-3] c.s.s.i.a.input.SolicitudHandler - Error de validación: El usuario no existe en el sistema.
